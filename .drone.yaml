@@ -1,5 +1,5 @@
 kind: pipeline
-name: default
+name: conformance-test
 
 steps:
 
