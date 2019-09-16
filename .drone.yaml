@@ -1,0 +1,9 @@
+kind: pipeline
+name: default
+
+steps:
+
+- name: testing
+  image: instrumenta/conftest:latest
+  commands:
+  - conftest test deploy/*
